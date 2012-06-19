@@ -3,7 +3,6 @@ package com.axemblr.dropwizard.swagger;
 import com.axemblr.dropwizard.swagger.resources.PetResource;
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.config.Environment;
-import com.yammer.metrics.core.HealthCheck;
 
 public class DemoService extends Service<DemoConfig> {
 
