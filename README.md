@@ -1,4 +1,3 @@
-
 Dropwizard integration with Wordnik Swagger
 -------------------------------------------
 
@@ -12,4 +11,3 @@ To use it you need to:
 The JS client should be available at http://localhost:8080/swagger-ui/index.html
 
 Licensed under the Apache License version 2.0
-
