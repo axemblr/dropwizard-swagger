@@ -5,7 +5,7 @@ To use it you need to:
 
 * use SwaggerResource as base class for your resources
 * add annotations to describe your resources as documented here:
-  http://swagger.wordnik.com/spec
+  https://github.com/wordnik/swagger-core/wiki
 * put `addBundle(new SwaggerBundle())` in your service constructor 
 
 The JS client should be available at http://localhost:8080/swagger-ui/index.html
