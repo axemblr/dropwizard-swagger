@@ -63,7 +63,7 @@ public class DemoServiceTest {
 
   @Test
   public void testApiDescription() throws IOException {
-    assertUriExists("/resources.json");
-    assertUriExists("/pet.json/__api/describe");
+    assertUriExists("/api-docs.json");
+    assertUriExists("/api-docs.json/pet");
   }
 }
