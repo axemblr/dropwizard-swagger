@@ -1,6 +1,5 @@
 package com.axemblr.dropwizard.swagger.resources;
 
-import com.axemblr.dropwizard.swagger.SwaggerResource;
 import com.axemblr.dropwizard.swagger.core.Pet;
 import com.google.common.collect.ImmutableSet;
 import com.wordnik.swagger.annotations.Api;
