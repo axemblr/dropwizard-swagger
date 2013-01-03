@@ -1,7 +1,7 @@
 package com.axemblr.dropwizard.swagger;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.yammer.dropwizard.config.Configuration;
-import org.codehaus.jackson.annotate.JsonProperty;
 
 public class DemoConfig extends Configuration {
 

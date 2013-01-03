@@ -1,18 +1,21 @@
 package com.axemblr.dropwizard.swagger;
 
-import com.google.common.base.Charsets;
-import com.google.common.base.Throwables;
-import com.google.common.io.Files;
+import static junit.framework.Assert.assertEquals;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-import static junit.framework.Assert.assertEquals;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import com.google.common.base.Charsets;
+import com.google.common.base.Throwables;
+import com.google.common.io.Files;
 
 public class DemoServiceTest {
 
@@ -43,7 +46,7 @@ public class DemoServiceTest {
     TimeUnit.SECONDS.sleep(5);
   }
 
-  private void assertUriExists(String uri) throws IOException {
+  private static void assertUriExists(String uri) throws IOException {
     HttpClient client = new DefaultHttpClient();
     HttpGet get = new HttpGet("http://localhost:8080" + uri);
 
