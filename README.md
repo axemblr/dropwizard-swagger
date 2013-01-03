@@ -3,10 +3,10 @@ Dropwizard integration with Wordnik Swagger
 
 To use it you need to:
 
-* use SwaggerResource as base class for your resources
 * add annotations to describe your resources as documented here:
   https://github.com/wordnik/swagger-core/wiki
-* put `addBundle(new SwaggerBundle())` in your service constructor 
+* put `bootstrap.addBundle(new AssetsBundle("/swagger-ui"));` in your service `initialize()` method
+* put `environment.addResource(new ApiListingResourceJSON());` in your service `run()` method
 
 The JS client should be available at http://localhost:8080/swagger-ui/index.html
 

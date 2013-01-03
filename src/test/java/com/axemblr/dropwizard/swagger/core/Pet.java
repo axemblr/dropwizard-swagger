@@ -1,6 +1,7 @@
 package com.axemblr.dropwizard.swagger.core;
 
-import org.codehaus.jackson.annotate.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class Pet {
 
